@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta name="viewport" content="width=device-width">
+		<meta charset="utf-8" />   
+	 	<link rel="stylesheet"  href="./css/estilo.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>Conversor Romano</h1>
+			<form id="form" class="form" action="#">
+				<div class="element">
+					<div class="decimal">
+						<label>Decimal</label>
+						<input type="text" placeholder="Decimal" id="decimal" onkeyup="romanoCalc(this.form.decimal)">
+					</div>
+					<div class="grego">
+						<label>Romano</label>
+						<input type="text" placeholder="Romano"  onkeyup="decimalCalc(this.form.romano);" id="romano"> 
+					</div>			
+				</div>
+			</form>
+		</div>		
+	<script src="./js/index.js"></script>
+	</body>
+</html>
